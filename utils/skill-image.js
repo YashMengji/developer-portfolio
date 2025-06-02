@@ -47,6 +47,7 @@ import nextJS from '../app/assets/svg/skills/nextJS.svg';
 import nginx from '../app/assets/svg/skills/nginx.svg';
 import numpy from '../app/assets/svg/skills/numpy.svg';
 import nuxtJS from '../app/assets/svg/skills/nuxtJS.svg';
+import nodeJS from '../app/assets/svg/skills/nodejs.svg';
 import opencv from '../app/assets/svg/skills/opencv.svg';
 import photoshop from '../app/assets/svg/skills/photoshop.svg';
 import php from '../app/assets/svg/skills/php.svg';
@@ -81,6 +82,8 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import expressjs from '../app/assets/svg/skills/expressjs.svg'
+import botpress from '../app/assets/svg/skills/botpress.svg'
 
 
 
@@ -111,6 +114,8 @@ export const skillsImage = (skill) => {
       return nextJS;
     case 'nuxt js':
       return nuxtJS;
+    case 'node js':
+      return nodeJS;
     case 'react':
       return react;
     case 'svelte':
@@ -251,6 +256,10 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'express js':
+      return expressjs;
+    case 'botpress':
+      return botpress;
     default:
       break;
   }

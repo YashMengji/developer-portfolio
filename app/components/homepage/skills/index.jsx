@@ -26,7 +26,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="overflow-auto grid grid-cols-6 gap-8 w-full bg-red-500 my-12 p-6">
+      <div className="overflow-auto grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-8 w-full my-12 p-6">
         {/* <Marquee
           gradient={false}
           speed={1000}
@@ -37,8 +37,8 @@ function Skills() {
           direction="left"
         > */}
           {skillsData.map((skill, id) => (
-            <div className="flex justify-center">
-              <div className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
+            <div className="w-full h-full flex justify-center">
+              <div className="w-[150px] h-[131px] flex flex-col items-center justify-center transition-all duration-500 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
                 key={id}>
                 <div className="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
                   <div className="flex -translate-y-[1px] justify-center">
